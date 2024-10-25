@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @citromprimal
+- 👀 I’m interested in programming, specifically C and HTML, as well as exploring other languages like Java and C++.
+- 🌱 I’m currently learning various coding languages, focusing on enhancing my skills in C and web development with HTML.
+- 😄 Pronouns: he/him.
+- ⚡ Fun fact: I study at the Slovak University of Technology in Bratislava at the Faculty of Electrical Engineering and Information Technology, specializing in applied informatics!
