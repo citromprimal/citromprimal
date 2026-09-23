@@ -427,6 +427,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -510,7 +511,6 @@
               ]
             },
             "id": "925ab1f2-65f6-413c-874c-33bff7373b39",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Databáza",
@@ -529,7 +529,7 @@
           },
           {
             "position": {
-              "x": 266.25,
+              "x": 300,
               "y": 512
             },
             "size": {
@@ -548,6 +548,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -631,7 +632,6 @@
               ]
             },
             "id": "7d168e78-0803-45c4-8e7a-e43ff7252cfe",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "OBD-II adaptér",
@@ -649,7 +649,7 @@
           },
           {
             "position": {
-              "x": 556.25,
+              "x": 511.25,
               "y": 512
             },
             "size": {
@@ -668,6 +668,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -751,7 +752,6 @@
               ]
             },
             "id": "13bf3874-84a5-492f-a0b0-dc0ab3476d9d",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Backend API",
@@ -787,7 +787,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Bluetooth",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -801,7 +801,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Bluetooth"
             ],
             "id": "21f19002-afce-46e5-afa3-f316707ddea4",
             "source": {
@@ -857,14 +857,60 @@
             ],
             "id": "69fd40b1-4ffa-4fe6-944c-3f6d759444d1",
             "source": {
-              "x": 460,
-              "y": 120
+              "x": 370,
+              "y": 220
             },
             "target": {
-              "x": 470,
-              "y": 200
+              "cell": "36db690d-9f5c-467b-b988-1193a72322ee",
+              "port": "c359444d-e58b-4ab2-bef6-1430d9fbed24"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 17,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "b47777ce-ea9b-41e3-8b76-a7496a30ee41",
+            "source": {
+              "x": 500,
+              "y": 460
+            },
+            "target": {
+              "cell": "13bf3874-84a5-492f-a0b0-dc0ab3476d9d",
+              "port": "208aa86b-50c7-40bb-9587-e6fe008af319"
+            }
           }
         ]
       }
