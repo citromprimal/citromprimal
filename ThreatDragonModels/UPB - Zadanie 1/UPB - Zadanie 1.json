@@ -284,6 +284,52 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "57c27398-8ce6-4753-84ea-ccd88e819154",
+            "source": {
+              "x": 228,
+              "y": 415
+            },
+            "target": {
+              "x": 328,
+              "y": 515
+            }
+          },
+          {
             "position": {
               "x": 451.25,
               "y": 255
@@ -783,58 +829,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 15,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Bluetooth",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Bluetooth"
-            ],
-            "id": "21f19002-afce-46e5-afa3-f316707ddea4",
-            "source": {
-              "x": 320,
-              "y": 410
-            },
-            "target": {
-              "cell": "7d168e78-0803-45c4-8e7a-e43ff7252cfe",
-              "port": "208aa86b-50c7-40bb-9587-e6fe008af319"
-            },
-            "vertices": [
-              {
-                "x": 326.25,
-                "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 16,
             "connector": "smooth",
             "data": {
@@ -904,8 +898,8 @@
             ],
             "id": "b47777ce-ea9b-41e3-8b76-a7496a30ee41",
             "source": {
-              "x": 500,
-              "y": 460
+              "x": 630,
+              "y": 420
             },
             "target": {
               "cell": "13bf3874-84a5-492f-a0b0-dc0ab3476d9d",
