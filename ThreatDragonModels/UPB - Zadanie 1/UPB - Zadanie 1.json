@@ -65,29 +65,20 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9d8aa397-b440-43b3-8bf6-45fef0448495",
             "zIndex": -1,
+            "id": "9d8aa397-b440-43b3-8bf6-45fef0448495",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary: Server",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [
-                "f1dd6471-6202-40e5-85ce-c6701a9479d1"
-              ],
+              "crossingFlows": [],
               "containedElements": [
                 "13ac7fc5-6d5c-4d2a-9bc9-bf174cc2ef14",
                 "aa569541-f768-4829-819b-c6bde0fb0f65",
                 "b4cb53dc-7a17-47a6-95ca-60c2514396fa"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1266,8 +1257,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "e5d377e3-649f-471e-82d3-707b0922d505",
             "zIndex": 20,
+            "id": "e5d377e3-649f-471e-82d3-707b0922d505",
             "data": {
               "type": "tm.Text",
               "name": "diagnoscké údaje",
@@ -1290,8 +1281,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "7855998b-8799-4e13-a639-267e180a70f0",
             "zIndex": 21,
+            "id": "7855998b-8799-4e13-a639-267e180a70f0",
             "data": {
               "type": "tm.Text",
               "name": "OBD-II príkazy",
@@ -1314,8 +1305,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a30694fd-33f0-4c65-8b8f-c471be339f3f",
             "zIndex": 22,
+            "id": "a30694fd-33f0-4c65-8b8f-c471be339f3f",
             "data": {
               "type": "tm.Text",
               "name": "diagnostické výsledky",
@@ -1338,8 +1329,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "2e0f8828-d1b2-4f98-acfa-3675be29a009",
             "zIndex": 23,
+            "id": "2e0f8828-d1b2-4f98-acfa-3675be29a009",
             "data": {
               "type": "tm.Text",
               "name": "prihlasovacie údaje, príkazy",
@@ -1362,8 +1353,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "3ca04d1e-0aed-4bc0-a501-03a378335d66",
             "zIndex": 24,
+            "id": "3ca04d1e-0aed-4bc0-a501-03a378335d66",
             "data": {
               "type": "tm.Text",
               "name": "odpovede",
@@ -1386,8 +1377,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "34726bc0-dc71-440f-ba4a-cf5ffc8d625f",
             "zIndex": 25,
+            "id": "34726bc0-dc71-440f-ba4a-cf5ffc8d625f",
             "data": {
               "type": "tm.Text",
               "name": "OBD-II príkazy",
@@ -1410,8 +1401,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "c7d3cae0-24de-4796-9c65-4d92e7e641ad",
             "zIndex": 26,
+            "id": "c7d3cae0-24de-4796-9c65-4d92e7e641ad",
             "data": {
               "type": "tm.Text",
               "name": "API odpoveď / história",
@@ -1434,8 +1425,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "191733db-85b7-4f00-a26d-781b42e6236a",
             "zIndex": 27,
+            "id": "191733db-85b7-4f00-a26d-781b42e6236a",
             "data": {
               "type": "tm.Text",
               "name": "API požiadavka /\n diagnostické údaje",
@@ -1463,6 +1454,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -1546,7 +1538,6 @@
               ]
             },
             "id": "13ac7fc5-6d5c-4d2a-9bc9-bf174cc2ef14",
-            "zIndex": 28,
             "data": {
               "type": "tm.Process",
               "name": "Backend API",
@@ -1564,8 +1555,8 @@
           },
           {
             "position": {
-              "x": 626.25,
-              "y": 742
+              "x": 596.25,
+              "y": 750
             },
             "size": {
               "width": 60,
@@ -1583,6 +1574,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -1666,7 +1658,6 @@
               ]
             },
             "id": "aa569541-f768-4829-819b-c6bde0fb0f65",
-            "zIndex": 29,
             "data": {
               "type": "tm.Process",
               "name": "Auth",
@@ -1706,6 +1697,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 30,
             "ports": {
               "groups": {
                 "top": {
@@ -1789,7 +1781,6 @@
               ]
             },
             "id": "b4cb53dc-7a17-47a6-95ca-60c2514396fa",
-            "zIndex": 30,
             "data": {
               "type": "tm.Store",
               "name": "Databáza",
@@ -1826,7 +1817,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1837,22 +1828,26 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "9d8aa397-b440-43b3-8bf6-45fef0448495"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              ""
             ],
             "id": "f1dd6471-6202-40e5-85ce-c6701a9479d1",
             "source": {
-              "x": 670,
-              "y": 680
+              "cell": "13ac7fc5-6d5c-4d2a-9bc9-bf174cc2ef14",
+              "port": "9b515567-2d0f-41c2-936b-e50d42e25651"
             },
             "target": {
               "cell": "aa569541-f768-4829-819b-c6bde0fb0f65",
               "port": "ab19943d-b348-4000-a2f2-6025335fb214"
-            }
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 710
+              }
+            ]
           }
         ]
       }
