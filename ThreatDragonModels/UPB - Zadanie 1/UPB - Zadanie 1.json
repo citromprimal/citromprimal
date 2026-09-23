@@ -21,36 +21,45 @@
         "cells": [
           {
             "position": {
-              "x": 256.25,
-              "y": 210.0000000000012
+              "x": 266.25,
+              "y": 220
             },
             "size": {
               "width": 420,
-              "height": 150
+              "height": 190
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary: Mobilná aplikácia"
+                "text": "Trust Boundary: Mobil"
               }
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "a546b530-3b2c-4651-a7ea-6addb5ef7caf",
             "zIndex": -1,
+            "id": "a546b530-3b2c-4651-a7ea-6addb5ef7caf",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary: Mobilná aplikácia",
+              "name": "Trust Boundary: Mobil",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": []
+              "containedElements": [
+                "6534d6bf-b59b-4db5-b7e2-82db4517904d"
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
             "position": {
-              "x": 410,
-              "y": 50
+              "x": 420,
+              "y": 30
             },
             "size": {
               "width": 112.5,
@@ -68,6 +77,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -151,7 +161,6 @@
               ]
             },
             "id": "36db690d-9f5c-467b-b988-1193a72322ee",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Používateľ",
@@ -185,6 +194,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -268,7 +278,6 @@
               ]
             },
             "id": "e6e39c60-55ab-4f9e-9163-3d02758858e8",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "ECU",
@@ -302,6 +311,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -385,7 +395,6 @@
               ]
             },
             "id": "67173685-29e1-4abf-a4c6-5d47f95de9ea",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Databáza",
@@ -434,14 +443,275 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "2260b978-eb3a-4da7-9e89-89b700407460",
+            "id": "69fd40b1-4ffa-4fe6-944c-3f6d759444d1",
             "source": {
-              "x": 100,
-              "y": 280
+              "x": 470,
+              "y": 100
             },
             "target": {
-              "x": 200,
-              "y": 380
+              "x": 470,
+              "y": 200
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 381.25,
+              "y": 240.00000000000136
+            },
+            "size": {
+              "width": 190,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Mobilná aplikácia"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "301e7780-c07a-43ba-93a4-97bd4ce528b3"
+                },
+                {
+                  "group": "right",
+                  "id": "eaf84554-ee41-4514-9d40-3ec3067a8db0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "36154d98-2d0e-4cc1-b092-3b09920cb849"
+                },
+                {
+                  "group": "left",
+                  "id": "241751cd-ffec-45d7-9423-872e6851825e"
+                }
+              ]
+            },
+            "id": "6534d6bf-b59b-4db5-b7e2-82db4517904d",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Mobilná aplikácia",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
